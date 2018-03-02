@@ -9,7 +9,6 @@ deploy:
     access_key_id: $AWS_ACCESS_KEY
     secret_access_key: $AWS_SECRET_KEY
     bucket: $AWS_BUCKET
-    upload-dir: $AWS_DIRECTORY
     local_dir: ./_site
     skip_cleanup: true
     on:
